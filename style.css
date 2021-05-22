@@ -1,0 +1,103 @@
+.header-section{
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+.header-section .logo{}
+.header-section .logo a {
+	text-decoration: none;
+	font-size: 54px;
+	color: #40f;
+}
+.header-section .menu{}
+.header-section .menu ul{
+    text-align: center;
+}
+.header-section .menu ul li {
+	display: inline-block;
+	margin-top: 26px;
+}
+.header-section .menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0 20px;
+}
+
+.banner-section {
+	background-image: url(https://wallpaperaccess.com/full/1657858.jpg);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 200px;
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+}
+.banner-section h4{
+    text-transform: uppercase;
+}
+.banner-section h2 {
+	font-size: 50px;
+	font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.button{
+    margin-top: 30px;
+    display: inline-block;
+}
+.button a {
+	text-decoration: none;
+	color: white;
+	background: #4272d7;
+	padding: 14px 20px;
+    transition: .5s;
+}
+.button a:hover{
+    background: white;
+    color: black;
+}
+
+.discussion{
+    padding: 60px 0;
+}
+
+.discussion .comment {
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.discussion h4 {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.contact-section{
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+.contact-section .address{
+    padding: ;
+}
+.contact-section .form .manual{
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+    padding: 0 10px;
+}
+.contact-section h2 {
+	margin: 20px 0 85px 0;
+	font-weight: 700;
+	font-size: 45px;
+}
+.footer-section{
+    background: black;
+}
+.footer-section h4 {
+	text-align: center;
+	padding: 38px 0;
+	color: white;
+	font-size: 15px;
+	margin: 0;
+}
